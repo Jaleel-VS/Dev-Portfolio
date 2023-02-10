@@ -1,0 +1,100 @@
+/* Add your CSS styles here */
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .header img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 10px solid #fff;
+  }
+
+  .header h1 {
+    margin-top: 20px;
+    font-size: 36px;
+  }
+
+  .header p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+
+  .languages {
+    margin-top: 40px;
+    align-items: center;
+  }
+
+  .languages h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .languages ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .languages li {
+    background-color: #444;
+    color: #fff;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    flex-basis: calc(33.33% - 20px);
+    text-align: center;
+  }
+
+  .projects {
+    margin-top: 40px;
+  }
+
+  .projects h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .project {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+  }
+
+  .project h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .project p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .project a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: underline;
+  }
